@@ -1,0 +1,200 @@
+body{
+	margin: 0px;
+	
+   
+}
+
+
+html { scroll-behavior: smooth; } 
+
+
+.header{
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	z-index: 100;
+}
+
+.links{
+	float: right;
+	padding-right: 200px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+
+ }
+
+
+.box{
+	padding-top: 52px;
+	background-image: url("images/background-layer.png");
+	height: 600px;
+	width: 100%;
+
+}
+
+
+.btn {
+  color: #fff;
+  background-opacity:0.4;
+  text-decoration: none;
+  width: 250px;
+}
+.show, .hide {
+  position: absolute;
+  left: 40%;
+  z-index: 100;
+  text-align: center;
+  top: 75%;
+  font-size: 30px;
+}
+
+.hide {display: none;}
+.show:target {display: none;}
+.show:target ~ .hide {display: block;}
+.show:target ~ .panel {
+   max-height: 1500px; 
+}
+
+.panel {
+  position: relative;
+  margin: 2em auto;
+  width: 40%;
+  max-height: 110px;
+  overflow: hidden;
+  transition: max-height .5s ease;
+  color: white;
+  font-size: 25px;
+  top: 40%;
+  padding-top: 50px;
+}
+
+.about{
+	height: 620px;
+	width: 100%;
+	padding-top: 40px;
+	text-align: center;
+
+}
+
+.images{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+#mission{
+	height: 300px;
+	width: 500px;
+}
+
+#vision{
+	height: 300px;
+	width: 500px;
+}
+
+.mission{
+	text-align: center;
+}
+
+.vision{
+	text-align: center;
+}
+
+
+.awards{
+	height: 620px;
+	width: 100%;
+	padding-top: 40px;
+	text-align: center;	
+}
+
+.image{
+	padding-top: 50px;
+	 
+}
+
+.award{
+	
+	float: left;
+  	 width: 20%;
+  	 padding: 30px;
+  	 text-align: center;
+
+}
+
+.award h2{
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+.contact{
+	height: 790px;
+	width: 100%;
+	padding-top: 40px;
+	text-align: center;	
+
+}
+
+.hoststatic{
+	float: left;
+	height: 680px;
+	width: 45%;
+	margin-left: 60px;
+
+}
+
+.address{
+	float: right;
+	
+	width: 40%;
+	height: 250px;
+	margin-right: 10%;
+	margin-bottom: 30px;
+	text-align: left;
+}
+h2,h1{
+	text-align: center;
+	color: #139139;
+
+}
+
+h1{
+	font-size: 37px;
+}
+
+.contactus{
+	float: right;
+	
+	width: 40%;
+	height: 250px;
+	margin-right: 10%;
+	text-align: left;
+}
+
+.footer{
+    padding: 6px 40px 6px 40px;
+    background: #139139;
+    font-family: "Lucida Sans Unicode";
+    color: white;
+    font-size: 11px;
+    text-decoration: right;
+    bottom: 0px;
+    height: 60px;
+    text-align: center;
+}
+
+
+.social1{
+	padding-right: 15px;
+	float: right;
+	
+}
